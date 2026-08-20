@@ -1,5 +1,7 @@
 #include<bits\stdc++.h>
+
 using namespace std;
+
 void countsort( vector<int>&a,int exp){
     int n=a.size();
     vector<int>output(n);
@@ -32,7 +34,7 @@ int main(){
     cin>>x;
     radixsort(a);
     for(int i=0;i<n;i++)
-    cout<<a[i]<<" ";
+    cout<<a[i];
     cout<<endl;
     return 0;
 }
