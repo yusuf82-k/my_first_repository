@@ -9,7 +9,6 @@ void solve()
     vector<int> a(n);
     for (auto &x : a)
         cin >> x;
-
     int maxi = 0, ans = 0;
     for (int i : a)
         maxi = max(i, maxi);
@@ -17,7 +16,7 @@ void solve()
         ans += i == maxi; 
     cout << ans << endl;
 }
-
+ 
 int main()
 {
     int t = 1;
